@@ -1,0 +1,31 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.main-container{
+    height: 500px;
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    
+    border-radius: 20px;
+}
+
+.qr-container{
+    overflow: hidden;
+    height: 315px;
+    width: 315px;
+    border-radius: 10px;
+    position:relative;
+    margin: auto;
+    top: 17.5px;
+    
+}
+
+.words{
+    position: relative;
+    top: 10px;
+}
