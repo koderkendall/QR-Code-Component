@@ -1,13 +1,21 @@
   @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 *{
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     text-align: center;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container{
-    height: 500px;
+
+    height: 530px;
     width: 350px;
     background-color: hsl(0, 0%, 100%);
     
@@ -26,6 +34,27 @@
 }
 
 .words{
+
     position: relative;
     top: 10px;
+    margin: 35px 35px;
+
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.words h3{
+    font-weight: 700;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.words p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
 }
