@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 *{
     background-color: hsl(212, 45%, 89%);
@@ -14,12 +14,18 @@ body{
 }
 
 .main-container{
+    position: absolute;
 
     height: 530px;
     width: 350px;
     background-color: hsl(0, 0%, 100%);
     
     border-radius: 20px;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    
 }
 
 .qr-container{
@@ -44,6 +50,7 @@ body{
 }
 
 .words h3{
+    font-size: 23px;
     font-weight: 700;
     background-color: hsl(0, 0%, 100%);
 }
